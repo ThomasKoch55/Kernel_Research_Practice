@@ -1,7 +1,7 @@
 make:
-	echo "Prepare for greatness"
-	gcc LPM_Trie.c -o LPM_Trie
+	@echo "Prepare for greatness"
+	gcc LPM_Trie_Dev.c -o LPM_Trie_Dev
 	
 
 clean:
-	rm LPM_Trie
+	rm LPM_Trie_Dev
